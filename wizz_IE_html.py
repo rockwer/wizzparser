@@ -3,7 +3,7 @@ from time import sleep
 from bs4 import BeautifulSoup
 
 
-def download_url_with_ie(url):
+def parse_ie(url):
     ie = win32com.client.Dispatch("InternetExplorer.Application")
     ie.Visible = 0
     ie.Navigate(url)
@@ -20,5 +20,5 @@ def download_url_with_ie(url):
         print(prices.get_text())
 
 
-download_url_with_ie('https://wizzair.com/en-gb/flights/timetable/IEV/LCA#/0/0/2017-11/2017-12')
-download_url_with_ie('https://wizzair.com/en-gb/flights/timetable/IEV/LCA#/0/0/2017-12/2017-12')
+parse_ie('https://wizzair.com/en-gb/flights/timetable/IEV/LCA#/0/0/2017-11/2017-12')
+parse_ie('https://wizzair.com/en-gb/flights/timetable/IEV/LCA#/0/0/2017-12/2017-12')

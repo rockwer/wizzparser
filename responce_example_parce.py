@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
 from lxml.html.soupparser import fromstring
 
-url = open("index.html", "r", encoding='utf-8')
+url = open("responce_example.html", "r", encoding='utf-8')
 
 soup = BeautifulSoup(url, "html.parser")
 # soup = soup.prettify()

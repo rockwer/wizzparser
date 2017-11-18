@@ -1,0 +1,48 @@
+Request URL:https://be.wizzair.com/7.5.2/Api/search/timetable
+Request Method:POST
+Status Code:200
+Remote Address:104.81.214.134:443
+Referrer Policy:no-referrer-when-downgrade
+Response Headers
+access-control-allow-credentials:true
+access-control-allow-headers:Content-Type, X-Requested-With
+access-control-allow-methods:GET, POST, PUT, DELETE, OPTIONS
+access-control-allow-origin:https://wizzair.com
+access-control-max-age:86400
+cache-control:no-cache,no-store
+content-encoding:gzip
+content-length:744
+content-type:application/json; charset=utf-8
+date:Sat, 18 Nov 2017 07:07:01 GMT
+expires:-1
+pragma:no-cache
+server:
+set-cookie:bm_sv=596F572CF20263AF8A2D6B8CB908DA67~qFP3ykFhDLR8EmuGr0t8tF1cHxnkGhvdKPL5iGX0u+8RE9jGbknW2seSbsiCmbWrgSDsEg7t9cARFbUCzBQOiIA5TZ78s3bSzswL14waaFrd59uvhbPiw4GSy8CNlNBLjGb0YWF7GtpMsq5yo6cjzIrAbEHBG34dHKV9NpNO0Rw=; Domain=.wizzair.com; Path=/; Max-Age=6295; HttpOnly
+status:200
+strict-transport-security:max-age=31536000
+vary:Accept-Encoding
+x-content-type-options:nosniff
+x-frame-options:SAMEORIGIN
+x-xss-protection:1; mode=block
+Request Headers
+:authority:be.wizzair.com
+:method:POST
+:path:/7.5.2/Api/search/timetable
+:scheme:https
+accept:application/json, text/plain, */*
+accept-encoding:gzip, deflate, br
+accept-language:uk-UA,uk;q=0.9,ru;q=0.8,en-US;q=0.7,en;q=0.6
+content-length:214
+content-type:application/json
+cookie:ASP.NET_SessionId=5fmps2oetzbge5qyubgwpawy; ak_bmsc=DA09A276B17E98B06D2869C6D9355167601194041A5300008CD80F5A17ACD105~plPPoQ420Bv9mGe/+GvLdyDFZMGrOOeYBpSXru5Q/TJTOX9ivOZy+byBzPVdijhjROmrB0t6U4nC/qw9A+uPioDgE99K0iqrFFk2ObqsLoXpv/pwsRgjRX1R34dIVz7Qu03gYl61STETB68OkWnfCSCYO5HMQtu33NZZ/MHvF6z5tKhYXWWQHAPOVHwWpHznmyXOKKARrcKHSp7zfYFjSFx2vM6/ZvHIJopbF6PoHh+kM=; bm_sv=596F572CF20263AF8A2D6B8CB908DA67~qFP3ykFhDLR8EmuGr0t8tF1cHxnkGhvdKPL5iGX0u+8RE9jGbknW2seSbsiCmbWrgSDsEg7t9cARFbUCzBQOiIA5TZ78s3bSzswL14waaFpx7dYfRyRjMs3V7pWx4sKVLtpyMwQq2uSjmOSbND+7yacZeHkNDFrYieoCpGyapyk=; _ga=GA1.2.1989400728.1510855716; _gid=GA1.2.594641519.1510855716; _gat=1
+origin:https://wizzair.com
+referer:https://wizzair.com/en-gb/flights/timetable/IEV/BUD
+user-agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+Request Payload
+view source
+{,…}
+flightList: [{departureStation: "IEV", arrivalStation: "BUD", from: "2017-11-18", to: "2017-12-03"},…]
+0: {departureStation: "IEV", arrivalStation: "BUD", from: "2017-11-18", to: "2017-12-03"}
+1: {departureStation: "BUD", arrivalStation: "IEV", from: "2017-11-27", to: "2017-12-31"}
+priceType:"regular"
+Name
